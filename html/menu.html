@@ -1,0 +1,41 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/css/menu.css"/>
+</head>
+<body id="popupBody" class="popupBody">
+	<div id="daraContainer" style="display: flex; margin-top: 0px; margin-bottom: 0px; align-items: center;">
+		<img id="daraLogo" class="daraImage" src="/../images/logo.svg" style="width: 70%; max-width: 70%; margin: auto; margin-top: 15px; margin-bottom: 15px;">
+	</div>
+	<div id="mainDiv" class="mainDiv">
+		<div id="mainButtons" class="daraButtons-container">
+			<button id="upload" class="daraButton" type="button">Upload This Page</button>
+			<button id="dashboard" class="daraButton" type="button">Open Dashboard</button>
+			<button id="settings" class="daraButton" type="button">Settings</button>
+			<div id="settingsBox" hidden="true" class="dara-settings-container">
+				<label class="dara-check-label" id="settingsLabel2" for="checkbox2">Confirm Before Upload
+					<input class="dara-check" type="checkbox" id="checkbox2" name="checkbox2">
+				</label>
+				<label class="dara-check-label" id="settingsLabel1" for="checkbox1">Dark UI Mode
+					<input class="dara-check" type="checkbox" id="checkbox1" name="checkbox1">
+				</label>
+				<label class="dara-check-label" id="settingsLabel3" for="checkbox3">Open After Upload
+					<input class="dara-check" type="checkbox" id="checkbox3" name="checkbox3">
+				</label>
+				<label class="dara-check-label" id="settingsLabel4" for="selectbox1">UI Sound: 
+					<select style="margin-left: 8px;" name="selectbox1" id="selectbox1">
+						<option class="dara-option" value="none" selected>None</option>
+						<option class="dara-option" value="click.mp3">Click</option>
+						<option class="dara-option" value="harp.mp3">Harp</option>
+						<option class="dara-option" value="pop.mp3">Pop</option>
+						<option class="dara-option" value="tinkle.mp3">Tinkle</option>
+						<option class="dara-option" value="woosh.mp3">Woosh</option>
+					</select>
+				</label>
+			</div>
+		</div>
+	</div>
+	<p id="versionString" style=" font-size: 12px; color:#444444; width:100%; text-align: center; margin-top: 10px; margin-bottom: auto;">DARA v1.4.0 (Persephone)</p>
+	<script src="../js/menu.js"></script>
+</body>
+</html>

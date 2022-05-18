@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body, html{
+  min-width: auto;
+  width: auto;
+  min-height: auto;
+  height: auto;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.daraButton {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  min-width: 80% !important;
+  width: 80% !important; 
+  height: auto !important; 
+  margin-top: 8px !important;
+  margin-bottom: 0px !important;
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  padding: 8px !important;
+  border: 1px solid rgba(0,0,0,0.05) !important;
+  border-radius: 6px !important;
+  background: #333333 !important;
+  text-align: center !important;
+  color: white !important;
+}
+
+.daraButton:-moz-focus-inner{
+  border: none !important;
+}
+
+.daraButton:focus{
+  border: 1px solid #ffffff00 !important;
+}
+
+.daraButton:hover{
+  background: #ffb80a !important;
+  color: #000000 !important;
+}
+
+.daraButton:active{
+  background: #ffb80a !important;
+  color: #000000 !important;
+}
+
+.logo {
+  -webkit-animation:spin 3s ease-in-out infinite;
+  -moz-animation:spin 3s ease-in-out infinite;
+  animation:spin 3s ease-in-out infinite;
+}
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(900deg); } 
+}
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(900deg); } 
+}
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(900deg); 
+      transform:rotate(900deg); 
+  } 
+}
+
+.bounce {
+  -webkit-animation:bounce 0.8s ease-in-out;
+  -moz-animation:bounce 0.8s ease-in-out;
+  animation:bounce 0.8s ease-in-out;
+}
+@keyframes bounce { 
+0% { 
+  transform: scale(1.0); 
+} 
+50% { 
+  transform: scale(1.1); 
+}
+100% { 
+  transform: scale(1.0); 
+}
+}
+
+.dara-buttons-container {
+  height:auto;
+  width: auto;
+  text-align: center; 
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.dara-settings-container {
+  height:78px;
+  width: 73%;
+  text-align: center; 
+  padding: 8px;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+  border: 1px solid #333333;
+  border-radius: 6px !important;
+  background-color: #333333;
+}
+
+.dara-check-container {
+  height:auto;
+  width: 70%;
+  padding: auto;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dara-check {
+  width: 1rem;
+  height: 1rem;
+  cursor:pointer;
+  position:relative;
+  vertical-align: middle;
+  padding: auto;
+  margin: auto;
+  margin-left: 6px;
+  margin-right: auto;
+}
+
+.dara-check-label{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 12px;
+  color: white;
+  float:right;
+  margin:auto;
+  padding:0 0 0 0;
+  margin-bottom: 4px;
+  margin-bottom: 4px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.mainDiv{
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.popupBody{
+  border: 1px solid #ffb80a; 
+  border-radius: 6px; 
+  text-align: center; 
+  height: 420px; 
+  width: 280px; 
+  margin: 8px; 
+}
+
+.daraImage{
+  filter: brightness(0) saturate(100%) invert(67%) sepia(99%) saturate(735%) hue-rotate(351deg) brightness(101%) contrast(103%);
+}

@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "/js/background.js" ]
+   },
+
+   "browser_action": {
+      "browser_style": true,
+      "default_icon": {
+         "128": "/images/icon128.png"
+      },
+      "default_title": "The Immutable DARA",
+      "default_popup": "/html/menu.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/js/fonts.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "DARA enables users to permanently and immutably store virtually any web content forever, using IPFS and Blockchain technologies.",
+   "manifest_version": 2,
+   "icons": {
+      "128": "/images/icon128.png",
+      "48": "/images/icon48.png",
+      "32": "/images/icon32.png",
+      "24": "/images/icon24.png",
+      "16": "/images/icon16.png"
+   },
+   "name": "DARA",
+   "permissions": [ "http://*/*", "https://*/*", "file:///*", "tabs", "webNavigation", "webRequest", "storage" ],
+   "version": "1.4.0",
+   "web_accessible_resources": [ "/html/*.html" ]
+}

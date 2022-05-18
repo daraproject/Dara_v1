@@ -1,0 +1,177 @@
+<html>
+<style id="dara-unsaved-panel-style" type="text/css">
+    #dara-unsaved-panel-overlay,
+#dara-unsaved-panel-overlay * {
+	all: initial !important;
+}
+
+#dara-unsaved-panel-overlay,
+#dara-unsaved-panel-overlay * {
+	font-family: "Segoe UI", "Helvetica Neue", Ubuntu, Arial !important;
+	font-size: 12px !important;
+	color: white !important;
+	cursor: default !important;
+	-moz-user-select: none !important;
+	-webkit-user-select: none !important;
+}
+
+#dara-unsaved-panel-overlay {
+	position: fixed !important;
+	left: 0px !important;
+	top: 0px !important;
+	right: 0px !important;
+	bottom: 0px !important;
+	background: rgba(0, 0, 0, 0.2) !important;
+	z-index: 2147483646 !important;
+}
+
+#dara-unsaved-panel-content {
+	display: block !important;
+	width: 640px !important;
+	margin: 26px auto !important;
+	background: #F2F2F2 !important;
+	border: 1px solid #151515 !important;
+	z-index: 2147483647 !important;
+}
+
+#dara-unsaved-panel-header {
+	display: block !important;
+	padding: 7px 0px 6px 0px !important;
+	border-bottom: 1px solid #2f2f2f !important;
+	background: #151515 !important;
+	font-size: 14px !important;
+	text-align: center !important;
+}
+
+#dara-unsaved-panel-resources {
+	display: flex !important;
+	height: 255px !important;
+	border-bottom: 1px solid #2f2f2f !important;
+	background: #1f1f1f !important;
+	overflow: scroll !important;
+}
+
+#dara-unsaved-panel-sidebar {
+	display: flex !important;
+	position: sticky !important;
+	left: 0px !important;
+	background: #1f1f1f !important;
+}
+
+#dara-unsaved-panel-nums {
+	display: block !important;
+	background: #1f1f1f !important;
+}
+
+#dara-unsaved-panel-infs {
+	display: block !important;
+	background: #1f1f1f !important;
+	text-align: right !important;
+}
+
+#dara-unsaved-panel-urls {
+	display: block !important;
+	background: #1f1f1f !important;
+}
+
+#dara-unsaved-panel-nums div {
+	display: block !important;
+	padding: 3px 5px !important;
+	background: #1f1f1f !important;
+	white-space: nowrap !important;
+	text-align: right !important;
+}
+
+#dara-unsaved-panel-infs div {
+	display: block !important;
+	padding: 3px 5px !important;
+	margin-right: 5px !important;
+	background: #1f1f1f !important;
+	color: #C04040 !important;
+	white-space: nowrap !important;
+	text-align: inherit !important;
+}
+
+#dara-unsaved-panel-urls div {
+	display: block !important;
+	padding: 3px 5px 3px 0px !important;
+	background: #1f1f1f !important;
+	white-space: nowrap !important;
+	-moz-user-select: text !important;
+	-webkit-user-select: text !important;
+}
+
+#dara-unsaved-panel-nums div:first-child,
+#dara-unsaved-panel-infs div:first-child,
+#dara-unsaved-panel-urls div:first-child {
+	padding-top: 7px !important;
+}
+
+#dara-unsaved-panel-nums div:last-child,
+#dara-unsaved-panel-infs div:last-child,
+#dara-unsaved-panel-urls div:last-child {
+	padding-bottom: 7px !important;
+}
+
+#dara-unsaved-panel-footer {
+	display: flex !important;
+	background: #151515 !important;
+}
+
+#dara-unsaved-panel-spacer {
+	flex: 1 !important;
+	background: #151515 !important;
+}
+
+#dara-unsaved-panel-continue,
+#dara-unsaved-panel-cancel {
+	min-width: 90px !important;
+	margin: 8px !important;
+	padding: 4px !important;
+	border: 1px solid #3077b5 !important;
+	border-radius: 24px !important;
+	background: #3077b5 !important;
+	text-align: center !important;
+}
+
+#dara-unsaved-panel-cancel {
+	margin-right: 16px !important;
+}
+
+#dara-unsaved-panel-continue::-moz-focus-inner,
+#dara-unsaved-panel-cancel::-moz-focus-inner {
+	border: none !important;
+}
+
+#dara-unsaved-panel-continue:focus,
+#dara-unsaved-panel-cancel:focus {
+	border: 1px solid #0078D7 !important;
+}
+
+#dara-unsaved-panel-continue:hover,
+#dara-unsaved-panel-cancel:hover {
+	background: #5097d5 !important;
+}
+
+#dara-unsaved-panel-continue:active,
+#dara-unsaved-panel-cancel:active {
+	background: #5097d5 !important;
+}
+
+</style>
+<div id="dara-unsaved-panel-overlay">
+    <div id="dara-unsaved-panel-content">
+        <div id="dara-unsaved-panel-header"></div>
+        <div id="dara-unsaved-panel-resources">
+            <div id="dara-unsaved-panel-sidebar">
+                <div id="dara-unsaved-panel-nums"></div>
+                <div id="dara-unsaved-panel-infs"></div>
+            </div>
+            <div id="dara-unsaved-panel-urls"></div>
+        </div>
+        <div id="dara-unsaved-panel-footer">
+            <div id="dara-unsaved-panel-spacer"></div> <button id="dara-unsaved-panel-continue">Continue</button> <button id="dara-unsaved-panel-cancel">Cancel</button> </div>
+    </div>
+</div>
+
+</html>
