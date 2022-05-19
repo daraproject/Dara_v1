@@ -1,5 +1,8 @@
 # DARA browser extension
 
+
+![Logo](/images/icon128.png)
+
 [![License](https://img.shields.io/badge/License-GPL2-blue)](#license)
 [![Chrome Webstore Version](https://img.shields.io/chrome-web-store/v/iompmkajdofndagijpjmknmnmhkapbhj)](https://chrome.google.com/webstore/detail/stylebot/iompmkajdofndagijpjmknmnmhkapbhj)
 [![Chrome Users](https://badgen.net/chrome-web-store/users/iompmkajdofndagijpjmknmnmhkapbhj)](https://chrome.google.com/webstore/detail/stylebot/iompmkajdofndagijpjmknmnmhkapbhj)
